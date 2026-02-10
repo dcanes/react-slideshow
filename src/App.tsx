@@ -1,8 +1,10 @@
 import { useState, useEffect } from 'react';
-import { AnimatePresence } from 'framer-motion';
+import { AnimatePresence, motion } from 'framer-motion';
 import { slides as initialSlides, Slide } from './slides';
 import { SlideRenderer } from './SlideRenderer';
 import { SlidePicker } from './SlidePicker';
+import { generateMarkdown } from './utils/markdownExport';
+import { saveSlides, loadSlides } from './utils/db';
 import './styles.css';
 
 function App() {
@@ -10,8 +12,37 @@ function App() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [zoomMode, setZoomMode] = useState(true);
   const [isPickerOpen, setIsPickerOpen] = useState(false);
+  const [isSyncModalOpen, setIsSyncModalOpen] = useState(false);
+  const [copyStatus, setCopyStatus] = useState<'idle' | 'copied'>('idle');
+  const [isLoaded, setIsLoaded] = useState(false);
+
   const totalSlides = slideData.length;
   const currentSlide = slideData[currentIndex];
+
+  // Load from IndexedDB on mount
+  useEffect(() => {
+    async function init() {
+      const saved = await loadSlides();
+      if (saved) {
+        setSlideData(initialSlides.map(initialSlide => {
+          const savedSlide = saved.find((s: any) => s.id === initialSlide.id);
+          if (savedSlide && savedSlide.image) {
+            return { ...initialSlide, image: savedSlide.image };
+          }
+          return initialSlide;
+        }));
+      }
+      setIsLoaded(true);
+    }
+    init();
+  }, []);
+
+  // Save to IndexedDB whenever slideData changes
+  useEffect(() => {
+    if (isLoaded) {
+      saveSlides(slideData).catch(err => console.error('Failed to save slides:', err));
+    }
+  }, [slideData, isLoaded]);
 
   const handleNext = () => {
     setCurrentIndex((prev) => Math.min(prev + 1, totalSlides - 1));
@@ -94,10 +125,62 @@ function App() {
       </main>
 
       <footer className="slide-footer">
+        <button className="sync-btn" onClick={() => setIsSyncModalOpen(true)} title="Sync changes to disk">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+            <polyline points="7 10 12 15 17 10" />
+            <line x1="12" y1="15" x2="12" y2="3" />
+          </svg>
+          Sync
+        </button>
         <div className="slide-counter" onClick={() => setIsPickerOpen(true)}>
           {currentIndex + 1} / {totalSlides}
         </div>
       </footer>
+
+      {/* Sync Modal */}
+      <AnimatePresence>
+        {isSyncModalOpen && (
+          <>
+            <motion.div
+              className="sync-backdrop"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              onClick={() => setIsSyncModalOpen(false)}
+            />
+            <motion.div
+              className="sync-modal"
+              initial={{ opacity: 0, scale: 0.9, y: 20 }}
+              animate={{ opacity: 1, scale: 1, y: 0 }}
+              exit={{ opacity: 0, scale: 0.9, y: 20 }}
+            >
+              <div className="sync-header">
+                <h3>Sync to Disk</h3>
+                <button className="sync-close" onClick={() => setIsSyncModalOpen(false)}>✕</button>
+              </div>
+              <p className="sync-instruction">
+                Copy the markdown below and paste it into <code>src/slides.md</code> to permanently save your changes.
+              </p>
+              <div className="sync-content">
+                <pre>{generateMarkdown(slideData)}</pre>
+              </div>
+              <div className="sync-footer">
+                <button
+                  className={`copy-btn ${copyStatus === 'copied' ? 'success' : ''}`}
+                  onClick={() => {
+                    navigator.clipboard.writeText(generateMarkdown(slideData));
+                    setCopyStatus('copied');
+                    setTimeout(() => setCopyStatus('idle'), 2000);
+                  }}
+                >
+                  {copyStatus === 'copied' ? 'Copied!' : 'Copy to Clipboard'}
+                </button>
+              </div>
+            </motion.div>
+          </>
+        )}
+      </AnimatePresence>
 
       <SlidePicker
         slides={slideData}

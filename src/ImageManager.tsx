@@ -11,15 +11,54 @@ interface ImageManagerProps {
 export function ImageManager({ currentImage, onImageUpdate, isOpen, onClose }: ImageManagerProps) {
   const [urlValue, setUrlValue] = useState('');
   const [isDragOver, setIsDragOver] = useState(false);
+  const [isProcessing, setIsProcessing] = useState(false);
   const panelRef = useRef<HTMLDivElement>(null);
+
+  const processImage = useCallback((file: File) => {
+    setIsProcessing(true);
+    const reader = new FileReader();
+    reader.onload = (e) => {
+      const img = new Image();
+      img.onload = () => {
+        const canvas = document.createElement('canvas');
+        const MAX_WIDTH = 1920;
+        const MAX_HEIGHT = 1080;
+        let width = img.width;
+        let height = img.height;
+
+        if (width > height) {
+          if (width > MAX_WIDTH) {
+            height *= MAX_WIDTH / width;
+            width = MAX_WIDTH;
+          }
+        } else {
+          if (height > MAX_HEIGHT) {
+            width *= MAX_HEIGHT / height;
+            height = MAX_HEIGHT;
+          }
+        }
+
+        canvas.width = width;
+        canvas.height = height;
+        const ctx = canvas.getContext('2d');
+        ctx?.drawImage(img, 0, 0, width, height);
+
+        // Compress to JPEG at 0.8 quality
+        const compressedBase64 = canvas.toDataURL('image/jpeg', 0.8);
+        onImageUpdate(compressedBase64);
+        setIsProcessing(false);
+      };
+      img.src = e.target?.result as string;
+    };
+    reader.readAsDataURL(file);
+  }, [onImageUpdate]);
 
   const handleFile = useCallback((file: File) => {
     if (!file.type.startsWith('image/')) return;
-    const objectUrl = URL.createObjectURL(file);
-    onImageUpdate(objectUrl);
-  }, [onImageUpdate]);
+    processImage(file);
+  }, [processImage]);
 
-  // Paste support: listen globally when panel is open
+  // Paste support
   useEffect(() => {
     if (!isOpen) return;
     const handlePaste = (e: ClipboardEvent) => {
@@ -66,7 +105,6 @@ export function ImageManager({ currentImage, onImageUpdate, isOpen, onClose }: I
       e.stopPropagation();
       handleUrlSubmit();
     }
-    // Prevent slide navigation while typing
     e.stopPropagation();
   };
 
@@ -90,11 +128,10 @@ export function ImageManager({ currentImage, onImageUpdate, isOpen, onClose }: I
             transition={{ type: 'spring', damping: 25, stiffness: 300 }}
           >
             <div className="im-header">
-              <h4>Image Asset</h4>
+              <h4>Image Asset {isProcessing && '(Processing...)'}</h4>
               <button className="im-close" onClick={onClose}>✕</button>
             </div>
 
-            {/* Current image preview */}
             {currentImage && (
               <div className="im-preview">
                 <img src={currentImage} alt="Current asset" className="im-preview-img" />
@@ -104,9 +141,8 @@ export function ImageManager({ currentImage, onImageUpdate, isOpen, onClose }: I
               </div>
             )}
 
-            {/* Drop zone */}
             <div
-              className={`im-dropzone ${isDragOver ? 'drag-over' : ''}`}
+              className={`im-dropzone ${isDragOver ? 'drag-over' : ''} ${isProcessing ? 'processing' : ''}`}
               onDrop={handleDrop}
               onDragOver={handleDragOver}
               onDragLeave={handleDragLeave}
@@ -116,10 +152,9 @@ export function ImageManager({ currentImage, onImageUpdate, isOpen, onClose }: I
                 <circle cx="8.5" cy="8.5" r="1.5" />
                 <polyline points="21 15 16 10 5 21" />
               </svg>
-              <span>Drop image, or paste from clipboard</span>
+              <span>{isProcessing ? 'Optimizing...' : 'Drop image, or paste from clipboard'}</span>
             </div>
 
-            {/* URL input */}
             <div className="im-url-row">
               <input
                 type="text"

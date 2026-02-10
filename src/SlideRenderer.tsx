@@ -44,15 +44,22 @@ export function SlideRenderer({ slide, onImageUpdate }: SlideRendererProps) {
      Dynamic Tile System
      <= 3  items  -> horizontal row of large tiles
      4-6   items  -> bento grid (3 cols, or 2 if 4)
-     7+    items  -> multi-column plain list
+     7+    items  -> tiered grid system (2, 3, or 4 cols)
   -------------------------------------------------- */
   const renderBody = () => {
     if (!body || body.length === 0) return null;
     const count = body.length;
 
     if (count >= 7) {
+      let gridClass = 'bullet-grid-2';
+      if (count >= 25) {
+        gridClass = 'bullet-grid-4';
+      } else if (count >= 11) {
+        gridClass = 'bullet-grid-3';
+      }
+
       return (
-        <div className="multi-col-list">
+        <div className={gridClass}>
           {body.map((item, i) => (
             <motion.p key={i} variants={itemVariants} className="list-item">
               {item}
