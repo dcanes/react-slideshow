@@ -48,6 +48,7 @@ Kind: default
 
 Bullets:
 - This is NOT about productivity (18,000+ RVUs)
+- Productivity is a personal choice
 - You can be efficient at ANY level of productivity
 
 ---

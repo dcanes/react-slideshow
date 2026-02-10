@@ -90,10 +90,9 @@ export function parseSlides(markdown: string): Slide[] {
     // Validate required fields
     if (!slide.title || !slide.chapter) {
       console.warn(`Slide ${index + 1} is missing required fields (title or chapter)`);
-      return;
+    } else {
+      slides.push(slide as Slide);
     }
-
-    slides.push(slide as Slide);
   });
 
   return slides;
