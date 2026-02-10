@@ -8,9 +8,10 @@ import { ImageManager } from './ImageManager';
 interface SlideRendererProps {
   slide: Slide;
   onImageUpdate?: (slideId: number, newImage: string | undefined) => void;
+  activeTileIndex?: number;
 }
 
-export function SlideRenderer({ slide, onImageUpdate }: SlideRendererProps) {
+export function SlideRenderer({ slide, onImageUpdate, activeTileIndex = -1 }: SlideRendererProps) {
   const [isDeepDiveOpen, setIsDeepDiveOpen] = useState(false);
   const [isEditMode, setIsEditMode] = useState(false);
 
@@ -74,7 +75,7 @@ export function SlideRenderer({ slide, onImageUpdate }: SlideRendererProps) {
       return (
         <div className={`tile-grid ${colClass}`}>
           {body.map((item, i) => (
-            <SmartTile key={i} text={item} />
+            <SmartTile key={i} text={item} isHighlighted={i === activeTileIndex} />
           ))}
         </div>
       );
@@ -83,7 +84,7 @@ export function SlideRenderer({ slide, onImageUpdate }: SlideRendererProps) {
     return (
       <div className="tile-row">
         {body.map((item, i) => (
-          <SmartTile key={i} text={item} />
+          <SmartTile key={i} text={item} isHighlighted={i === activeTileIndex} />
         ))}
       </div>
     );
@@ -121,7 +122,7 @@ export function SlideRenderer({ slide, onImageUpdate }: SlideRendererProps) {
               <path d="M21 3l-7 7" />
               <path d="M3 21l7-7" />
             </svg>
-            View Evidence
+            View Image
           </motion.button>
         )}
 

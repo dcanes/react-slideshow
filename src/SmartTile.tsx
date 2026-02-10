@@ -12,11 +12,15 @@ const tileVariants = {
 
 interface SmartTileProps {
   text: string;
+  isHighlighted?: boolean;
 }
 
-export function SmartTile({ text }: SmartTileProps) {
+export function SmartTile({ text, isHighlighted }: SmartTileProps) {
   return (
-    <motion.div variants={tileVariants} className="smart-tile">
+    <motion.div 
+      variants={tileVariants} 
+      className={`smart-tile ${isHighlighted ? 'tile-highlight' : ''}`}
+    >
       <span className="tile-text">{text}</span>
     </motion.div>
   );

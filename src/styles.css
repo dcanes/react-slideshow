@@ -303,35 +303,38 @@ body {
   justify-content: center;
   margin-top: 2rem;
   padding: 16px 32px;
-  background: rgba(0, 0, 0, 0.04);
+  background: rgba(255, 255, 255, 0.8);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
-  border: 1px solid rgba(0, 0, 0, 0.08);
+  border: 1px solid var(--accent-gold);
   border-radius: 14px;
   font-size: 1.1rem;
-  font-weight: 500;
+  font-weight: 600;
   font-family: inherit;
-  color: var(--text-secondary);
+  color: var(--text-main);
   cursor: pointer;
-  transition: background 0.2s ease, border-color 0.2s ease, transform 0.15s ease;
+  transition: all 0.2s ease;
   letter-spacing: 0.01em;
+  box-shadow: 0 4px 20px rgba(212, 175, 55, 0.2), 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .deep-dive-btn:hover {
-  background: rgba(0, 0, 0, 0.08);
-  border-color: rgba(0, 0, 0, 0.15);
+  background: #ffffff;
+  border-color: var(--accent-gold);
   transform: translateY(-2px);
+  box-shadow: 0 8px 30px rgba(212, 175, 55, 0.3), 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .app.dark-mode .deep-dive-btn {
   background: rgba(255, 255, 255, 0.1);
-  border-color: rgba(255, 255, 255, 0.2);
-  color: rgba(255, 255, 255, 0.85);
+  border: 1px solid var(--accent-gold);
+  color: #ffffff;
+  box-shadow: 0 4px 20px rgba(212, 175, 55, 0.3);
 }
 
 .app.dark-mode .deep-dive-btn:hover {
   background: rgba(255, 255, 255, 0.15);
-  border-color: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 30px rgba(212, 175, 55, 0.4);
 }
 
 .app.zoom-mode .deep-dive-btn {
@@ -817,6 +820,122 @@ body {
   font-size: 1.8rem;
 }
 
+.shortcuts-icon {
+  position: fixed;
+  bottom: 64px;
+  left: 16px;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  background: rgba(0, 0, 0, 0.04);
+  color: var(--text-secondary);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.3;
+  transition: opacity 0.2s ease, background 0.2s ease;
+  z-index: 60;
+}
+
+.shortcuts-icon:hover {
+  opacity: 0.8;
+  background: rgba(0, 0, 0, 0.08);
+}
+
+.app.dark-mode .shortcuts-icon {
+  background: rgba(255, 255, 255, 0.05);
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.shortcuts-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(8px);
+  z-index: 500;
+}
+
+.shortcuts-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(20px);
+  border-radius: 20px;
+  padding: 32px;
+  z-index: 501;
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.app.dark-mode .shortcuts-modal {
+  background: rgba(28, 28, 30, 0.95);
+  color: white;
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.shortcuts-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.shortcuts-header h3 {
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+.shortcuts-close {
+  background: none;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  color: inherit;
+  opacity: 0.5;
+}
+
+.shortcuts-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.shortcut-item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  font-size: 14px;
+}
+
+.shortcut-item kbd {
+  background: rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  padding: 4px 8px;
+  min-width: 32px;
+  text-align: center;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 12px;
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.1);
+}
+
+.app.dark-mode .shortcut-item kbd {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.3);
+}
+
+.shortcut-item span {
+  opacity: 0.8;
+}
+
 /* ---- Slide Picker Drawer ---- */
 
 .slide-picker-backdrop {
@@ -983,4 +1102,55 @@ body {
   overflow: hidden;
   text-overflow: ellipsis;
   opacity: 0.8;
+}
+
+/* Smart Tile Highlighter */
+.smart-tile.tile-highlight {
+  border: 2px solid #d4af37 !important;
+  box-shadow: 0 0 25px rgba(212,175,55,0.6) !important;
+  transform: scale(1.02) !important;
+  transition: all 0.3s ease;
+  z-index: 10;
+}
+
+/* Shortcut Overlays */
+.blur-overlay {
+  position: fixed;
+  inset: 0;
+  backdrop-filter: blur(40px);
+  background: rgba(255, 255, 255, 0.1);
+  z-index: 400;
+  pointer-events: none;
+}
+
+.whiteboard-overlay {
+  position: fixed;
+  inset: 0;
+  background: white;
+  z-index: 400;
+  pointer-events: none;
+}
+
+.spotlight-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 400;
+  pointer-events: none;
+}
+
+.shortcut-toast {
+  position: fixed;
+  bottom: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 12px 24px;
+  border-radius: 30px;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  z-index: 500;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
 }
