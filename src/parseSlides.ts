@@ -2,27 +2,28 @@ import { Slide } from './slides';
 
 export function parseSlides(markdown: string): Slide[] {
   const slides: Slide[] = [];
-  const slideSections = markdown.split(/\n---\n/).filter(section => section.trim());
+  const slideSections = markdown.split(/\r?\n\s*---\s*\r?\n/).filter(section => section.trim());
 
   slideSections.forEach((section, index) => {
     const slide: Partial<Slide> = {
       id: index + 1,
-      kind: 'default',
+      type: 'standard',
+      layout: 'center',
+      accent: false,
     };
 
-    const lines = section.split('\n');
+    const lines = section.split(/\r?\n/);
     let inBullets = false;
     const bullets: string[] = [];
 
     for (let i = 0; i < lines.length; i++) {
       const line = lines[i].trim();
 
-      // Skip empty lines
       if (!line) continue;
 
-      // Extract title from first # header
-      if (line.startsWith('# ') && !slide.title) {
-        slide.title = line.substring(2).trim();
+      // Extract headline from first # header
+      if (line.startsWith('# ') && !slide.headline) {
+        slide.headline = line.substring(2).trim();
         continue;
       }
 
@@ -32,14 +33,18 @@ export function parseSlides(markdown: string): Slide[] {
         continue;
       }
 
-      if (line.startsWith('Kind:')) {
-        const kindValue = line.substring(5).trim();
-        slide.kind = (kindValue === 'lossAversion' ? 'lossAversion' : 'default') as 'default' | 'lossAversion';
+      if (line.startsWith('Type:')) {
+        slide.type = line.substring(5).trim() as any;
         continue;
       }
 
-      if (line.startsWith('Subtitle:')) {
-        slide.subtitle = line.substring(9).trim();
+      if (line.startsWith('Layout:')) {
+        slide.layout = line.substring(7).trim() as any;
+        continue;
+      }
+
+      if (line.startsWith('Accent:')) {
+        slide.accent = line.substring(7).trim().toLowerCase() === 'true';
         continue;
       }
 
@@ -59,37 +64,33 @@ export function parseSlides(markdown: string): Slide[] {
       }
 
       // Handle bullets section
-      if (line.toLowerCase() === 'bullets:') {
+      if (line.toLowerCase() === 'bullets:' || line.toLowerCase() === 'body:') {
         inBullets = true;
         continue;
       }
 
       if (inBullets) {
-        // Check if we hit another metadata field (end of bullets)
-        if (line.match(/^(Chapter|Kind|Subtitle|Notes|Image|ImageAlt):/i)) {
+        if (line.match(/^(Chapter|Type|Layout|Accent|Notes|Image|ImageAlt):/i)) {
           inBullets = false;
-          i--; // Reprocess this line
+          i--;
           continue;
         }
 
-        // Extract bullet point (remove leading - or *)
         const bulletMatch = line.match(/^[-*]\s+(.+)$/);
         if (bulletMatch) {
           bullets.push(bulletMatch[1]);
         } else if (line.trim()) {
-          // If it's not a bullet marker but has content, treat as bullet
           bullets.push(line);
         }
       }
     }
 
     if (bullets.length > 0) {
-      slide.bullets = bullets;
+      slide.body = bullets;
     }
 
-    // Validate required fields
-    if (!slide.title || !slide.chapter) {
-      console.warn(`Slide ${index + 1} is missing required fields (title or chapter)`);
+    if (!slide.headline || !slide.chapter) {
+      console.warn(`Slide ${index + 1} is missing required fields (headline or chapter)`);
     } else {
       slides.push(slide as Slide);
     }

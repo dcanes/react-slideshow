@@ -1,0 +1,663 @@
+{"location":"parseSlides.ts:3","message":"Starting parse","data":{"markdownExists":true},"timestamp":1770729549637,"hypothesisId":"A"}
+{"location":"parseSlides.ts:8","message":"Split sections","data":{"sectionCount":46},"timestamp":1770729549638,"hypothesisId":"A"}
+{"location":"slides.ts:18","message":"Parsed slides result","data":{"count":46,"firstSlide":{"id":1,"type":"hero","layout":"center","accent":true,"headline":"The Efficient Workday","chapter":"INTRODUCTION","body":["Reclaiming Joy in Medicine"]}},"timestamp":1770729549643,"hypothesisId":"A"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770729549662,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":1,"headline":"The Efficient Workday"},"timestamp":1770729549664,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":1,"headline":"The Efficient Workday"},"timestamp":1770729549666,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770729549665,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":1,"type":"hero","layout":"center"},"timestamp":1770729549690,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":1,"type":"hero","layout":"center"},"timestamp":1770729549693,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770729552075,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":2,"headline":"Disclosures"},"timestamp":1770729552076,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770729552077,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":2,"headline":"Disclosures"},"timestamp":1770729552078,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":2,"type":"standard","layout":"stack"},"timestamp":1770729552409,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":2,"type":"standard","layout":"stack"},"timestamp":1770729552411,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770729554395,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":3,"headline":"Your Purpose?"},"timestamp":1770729554396,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770729554397,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":3,"headline":"Your Purpose?"},"timestamp":1770729554398,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":3,"type":"standard","layout":"center"},"timestamp":1770729554723,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":3,"type":"standard","layout":"center"},"timestamp":1770729554724,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770729557201,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770729557202,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":4,"headline":"Erosion of joy comes from three thieves:"},"timestamp":1770729557201,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":4,"headline":"Erosion of joy comes from three thieves:"},"timestamp":1770729557202,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":4,"type":"standard","layout":"grid-3"},"timestamp":1770729557522,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":4,"type":"standard","layout":"grid-3"},"timestamp":1770729557523,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770729560926,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770729560928,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":5,"headline":"Efficiency means less rush, more room for joy!"},"timestamp":1770729560929,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":5,"headline":"Efficiency means less rush, more room for joy!"},"timestamp":1770729560927,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":5,"type":"standard","layout":"stack"},"timestamp":1770729561256,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":5,"type":"standard","layout":"stack"},"timestamp":1770729561258,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770729563410,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":6,"headline":"Three Domains:"},"timestamp":1770729563411,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770729563412,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":6,"headline":"Three Domains:"},"timestamp":1770729563412,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":6,"type":"standard","layout":"grid-3"},"timestamp":1770729563722,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":6,"type":"standard","layout":"grid-3"},"timestamp":1770729563723,"hypothesisId":"C"}
+{"location":"parseSlides.ts:3","message":"Starting parse","data":{"markdownExists":true},"timestamp":1770729570085,"hypothesisId":"A"}
+{"location":"parseSlides.ts:8","message":"Split sections","data":{"sectionCount":46},"timestamp":1770729570089,"hypothesisId":"A"}
+{"location":"slides.ts:18","message":"Parsed slides result","data":{"count":46,"firstSlide":{"id":1,"type":"hero","layout":"center","accent":true,"headline":"The Efficient Workday","chapter":"INTRODUCTION","body":["Reclaiming Joy in Medicine"]}},"timestamp":1770729570100,"hypothesisId":"A"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770729570135,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":1,"headline":"The Efficient Workday"},"timestamp":1770729570138,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770729570140,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":1,"headline":"The Efficient Workday"},"timestamp":1770729570142,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":1,"type":"hero","layout":"center"},"timestamp":1770729570160,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":1,"type":"hero","layout":"center"},"timestamp":1770729570164,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770729573595,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":2,"headline":"Disclosures"},"timestamp":1770729573597,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770729573598,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":2,"headline":"Disclosures"},"timestamp":1770729573598,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":2,"type":"standard","layout":"stack"},"timestamp":1770729573923,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":2,"type":"standard","layout":"stack"},"timestamp":1770729573924,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770729574994,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":3,"headline":"Your Purpose?"},"timestamp":1770729574996,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770729574998,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":3,"headline":"Your Purpose?"},"timestamp":1770729575001,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":3,"type":"standard","layout":"center"},"timestamp":1770729575325,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":3,"type":"standard","layout":"center"},"timestamp":1770729575328,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770729577516,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":4,"headline":"Erosion of joy comes from three thieves:"},"timestamp":1770729577517,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770729577518,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":4,"headline":"Erosion of joy comes from three thieves:"},"timestamp":1770729577519,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":4,"type":"standard","layout":"grid-3"},"timestamp":1770729577837,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":4,"type":"standard","layout":"grid-3"},"timestamp":1770729577839,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770729579723,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":5,"headline":"Efficiency means less rush, more room for joy!"},"timestamp":1770729579724,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":5,"headline":"Efficiency means less rush, more room for joy!"},"timestamp":1770729579726,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770729579725,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":5,"type":"standard","layout":"stack"},"timestamp":1770729580055,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":5,"type":"standard","layout":"stack"},"timestamp":1770729580057,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770729581351,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":6,"headline":"Three Domains:"},"timestamp":1770729581353,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770729581354,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":6,"headline":"Three Domains:"},"timestamp":1770729581356,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":6,"type":"standard","layout":"grid-3"},"timestamp":1770729581678,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":6,"type":"standard","layout":"grid-3"},"timestamp":1770729581682,"hypothesisId":"C"}
+{"location":"parseSlides.ts:3","message":"Starting parse","data":{"markdownExists":true},"timestamp":1770730861260,"hypothesisId":"A"}
+{"location":"parseSlides.ts:8","message":"Split sections","data":{"sectionCount":46},"timestamp":1770730861262,"hypothesisId":"A"}
+{"location":"slides.ts:18","message":"Parsed slides result","data":{"count":46,"firstSlide":{"id":1,"type":"hero","layout":"center","accent":true,"headline":"The Efficient Workday","chapter":"INTRODUCTION","body":["Reclaiming Joy in Medicine"]}},"timestamp":1770730861269,"hypothesisId":"A"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770730861285,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770730861289,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":1,"headline":"The Efficient Workday"},"timestamp":1770730861286,"hypothesisId":"C"}
+{"location":"parseSlides.ts:8","message":"Split sections","data":{"sectionCount":46},"timestamp":1770730862080,"hypothesisId":"A"}
+{"location":"slides.ts:18","message":"Parsed slides result","data":{"count":46,"firstSlide":{"id":1,"type":"hero","layout":"center","accent":true,"headline":"The Efficient Workday","chapter":"INTRODUCTION","body":["Reclaiming Joy in Medicine"]}},"timestamp":1770730862087,"hypothesisId":"A"}
+{"location":"parseSlides.ts:3","message":"Starting parse","data":{"markdownExists":true},"timestamp":1770730862077,"hypothesisId":"A"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":1,"headline":"The Efficient Workday"},"timestamp":1770730861292,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":1,"headline":"The Efficient Workday"},"timestamp":1770730862124,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770730862120,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770730862132,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":1,"type":"hero","layout":"center"},"timestamp":1770730861302,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":1,"type":"hero","layout":"center"},"timestamp":1770730861305,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":1,"headline":"The Efficient Workday"},"timestamp":1770730862134,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":1,"type":"hero","layout":"center"},"timestamp":1770730862169,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":1,"type":"hero","layout":"center"},"timestamp":1770730862172,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770730871652,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770730871649,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":2,"headline":"Disclosures"},"timestamp":1770730871651,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":2,"headline":"Disclosures"},"timestamp":1770730871653,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":2,"type":"standard","layout":"stack"},"timestamp":1770730871970,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":2,"type":"standard","layout":"stack"},"timestamp":1770730871972,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770730872863,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":3,"headline":"Your Purpose?"},"timestamp":1770730872864,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770730872865,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":3,"headline":"Your Purpose?"},"timestamp":1770730872866,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":3,"type":"standard","layout":"center"},"timestamp":1770730873187,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":3,"type":"standard","layout":"center"},"timestamp":1770730873189,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770730873958,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770730873960,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":4,"headline":"Erosion of joy comes from three thieves:"},"timestamp":1770730873961,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":4,"headline":"Erosion of joy comes from three thieves:"},"timestamp":1770730873959,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":4,"type":"standard","layout":"grid-3"},"timestamp":1770730874286,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":4,"type":"standard","layout":"grid-3"},"timestamp":1770730874287,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770730874988,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":5,"headline":"Efficiency means less rush, more room for joy!"},"timestamp":1770730874989,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770730874990,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":5,"headline":"Efficiency means less rush, more room for joy!"},"timestamp":1770730874991,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":5,"type":"standard","layout":"stack"},"timestamp":1770730875304,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":5,"type":"standard","layout":"stack"},"timestamp":1770730875305,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770730876017,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":6,"headline":"Three Domains:"},"timestamp":1770730876018,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":6,"headline":"Three Domains:"},"timestamp":1770730876020,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770730876019,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":6,"type":"standard","layout":"grid-3"},"timestamp":1770730876336,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":6,"type":"standard","layout":"grid-3"},"timestamp":1770730876337,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770730877395,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":7,"headline":"Why Me?"},"timestamp":1770730877396,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770730877396,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":7,"headline":"Why Me?"},"timestamp":1770730877397,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":7,"type":"standard","layout":"grid-2"},"timestamp":1770730877720,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":7,"type":"standard","layout":"grid-2"},"timestamp":1770730877721,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770730878652,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":8,"headline":"Wellness Means Flourishing"},"timestamp":1770730878654,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770730878655,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":8,"headline":"Wellness Means Flourishing"},"timestamp":1770730878656,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":8,"type":"hero","layout":"center"},"timestamp":1770730879021,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":8,"type":"hero","layout":"center"},"timestamp":1770730879022,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770730879758,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":9,"headline":"Wellness Pet Peeves"},"timestamp":1770730879759,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770730879759,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":9,"headline":"Wellness Pet Peeves"},"timestamp":1770730879760,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":9,"type":"standard","layout":"grid-3"},"timestamp":1770730880069,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":9,"type":"standard","layout":"grid-3"},"timestamp":1770730880070,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770730880830,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":10,"headline":"The Pilot Analogy"},"timestamp":1770730880831,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770730880831,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":10,"headline":"The Pilot Analogy"},"timestamp":1770730880832,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":10,"type":"dark","layout":"center"},"timestamp":1770730881154,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":10,"type":"dark","layout":"center"},"timestamp":1770730881156,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770730882487,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":11,"headline":"Stanford Model"},"timestamp":1770730882488,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770730882489,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":11,"headline":"Stanford Model"},"timestamp":1770730882489,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":11,"type":"standard","layout":"grid-3"},"timestamp":1770730882803,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":11,"type":"standard","layout":"grid-3"},"timestamp":1770730882804,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770730884366,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":12,"headline":"What Does Data Reveal?"},"timestamp":1770730884367,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770730884368,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":12,"headline":"What Does Data Reveal?"},"timestamp":1770730884370,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":12,"type":"data","layout":"stack"},"timestamp":1770730884686,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":12,"type":"data","layout":"stack"},"timestamp":1770730884686,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770730886164,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":13,"headline":"Screen Time"},"timestamp":1770730886166,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770730886167,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":13,"headline":"Screen Time"},"timestamp":1770730886169,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":13,"type":"data","layout":"grid-2"},"timestamp":1770730886487,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":13,"type":"data","layout":"grid-2"},"timestamp":1770730886489,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770730887464,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":14,"headline":"Who Should Drive Solutions?"},"timestamp":1770730887465,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770730887466,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":14,"headline":"Who Should Drive Solutions?"},"timestamp":1770730887467,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":14,"type":"standard","layout":"center"},"timestamp":1770730887786,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":14,"type":"standard","layout":"center"},"timestamp":1770730887786,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770730888733,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":15,"headline":"The Gender Gap"},"timestamp":1770730888734,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770730888735,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":15,"headline":"The Gender Gap"},"timestamp":1770730888736,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":15,"type":"data","layout":"grid-2"},"timestamp":1770730889051,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":15,"type":"data","layout":"grid-2"},"timestamp":1770730889051,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770730889970,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":16,"headline":"No Action? OK."},"timestamp":1770730889971,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770730889972,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":16,"headline":"No Action? OK."},"timestamp":1770730889973,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":16,"type":"dark","layout":"center"},"timestamp":1770730890287,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":16,"type":"dark","layout":"center"},"timestamp":1770730890288,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770730894793,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":15,"headline":"The Gender Gap"},"timestamp":1770730894794,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770730894795,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":15,"headline":"The Gender Gap"},"timestamp":1770730894796,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":15,"type":"data","layout":"grid-2"},"timestamp":1770730895119,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":15,"type":"data","layout":"grid-2"},"timestamp":1770730895120,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770730895830,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":14,"headline":"Who Should Drive Solutions?"},"timestamp":1770730895832,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770730895834,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":14,"headline":"Who Should Drive Solutions?"},"timestamp":1770730895835,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":14,"type":"standard","layout":"center"},"timestamp":1770730896152,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":14,"type":"standard","layout":"center"},"timestamp":1770730896154,"hypothesisId":"C"}
+{"location":"parseSlides.ts:3","message":"Starting parse","data":{"markdownExists":true},"timestamp":1770733328231,"hypothesisId":"A"}
+{"location":"parseSlides.ts:3","message":"Starting parse","data":{"markdownExists":true},"timestamp":1770735006319,"hypothesisId":"A"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770735006347,"hypothesisId":"C"}
+{"location":"parseSlides.ts:8","message":"Split sections","data":{"sectionCount":46},"timestamp":1770735006321,"hypothesisId":"A"}
+{"location":"slides.ts:18","message":"Parsed slides result","data":{"count":46,"firstSlide":{"id":1,"type":"hero","layout":"center","accent":true,"headline":"The Efficient Workday","chapter":"INTRODUCTION","body":["Reclaiming Joy in Medicine"]}},"timestamp":1770735006326,"hypothesisId":"A"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":1,"headline":"The Efficient Workday"},"timestamp":1770735006350,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770735006352,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":1,"headline":"The Efficient Workday"},"timestamp":1770735006354,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":1,"type":"hero","layout":"center"},"timestamp":1770735006367,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":1,"type":"hero","layout":"center"},"timestamp":1770735006368,"hypothesisId":"C"}
+{"location":"parseSlides.ts:3","message":"Starting parse","data":{"markdownExists":true},"timestamp":1770735026727,"hypothesisId":"A"}
+{"location":"parseSlides.ts:8","message":"Split sections","data":{"sectionCount":46},"timestamp":1770735026729,"hypothesisId":"A"}
+{"location":"slides.ts:18","message":"Parsed slides result","data":{"count":46,"firstSlide":{"id":1,"type":"hero","layout":"center","accent":true,"headline":"The Efficient Workday","chapter":"INTRODUCTION","body":["Reclaiming Joy in Medicine"]}},"timestamp":1770735026776,"hypothesisId":"A"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770735026903,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":1,"headline":"The Efficient Workday"},"timestamp":1770735026907,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770735026919,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":1,"headline":"The Efficient Workday"},"timestamp":1770735026921,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":1,"type":"hero","layout":"center"},"timestamp":1770735026960,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":1,"type":"hero","layout":"center"},"timestamp":1770735026980,"hypothesisId":"C"}
+{"location":"parseSlides.ts:3","message":"Starting parse","data":{"markdownExists":true},"timestamp":1770736527256,"hypothesisId":"A"}
+{"location":"parseSlides.ts:3","message":"Starting parse","data":{"markdownExists":true},"timestamp":1770739225077,"hypothesisId":"A"}
+{"location":"parseSlides.ts:8","message":"Split sections","data":{"sectionCount":46},"timestamp":1770739225081,"hypothesisId":"A"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770739225105,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":1,"headline":"The Efficient Workday"},"timestamp":1770739225108,"hypothesisId":"C"}
+{"location":"slides.ts:18","message":"Parsed slides result","data":{"count":46,"firstSlide":{"id":1,"type":"hero","layout":"center","accent":true,"headline":"The Efficient Workday","chapter":"INTRODUCTION","body":["Reclaiming Joy in Medicine"]}},"timestamp":1770739225090,"hypothesisId":"A"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770739225111,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":1,"headline":"The Efficient Workday"},"timestamp":1770739225114,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":1,"type":"hero","layout":"center"},"timestamp":1770739225130,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":1,"type":"hero","layout":"center"},"timestamp":1770739225133,"hypothesisId":"C"}
+{"location":"parseSlides.ts:8","message":"Split sections","data":{"sectionCount":46},"timestamp":1770740521354,"hypothesisId":"A"}
+{"location":"parseSlides.ts:3","message":"Starting parse","data":{"markdownExists":true},"timestamp":1770743651658,"hypothesisId":"A"}
+{"location":"parseSlides.ts:8","message":"Split sections","data":{"sectionCount":46},"timestamp":1770743651659,"hypothesisId":"A"}
+{"location":"slides.ts:18","message":"Parsed slides result","data":{"count":46,"firstSlide":{"id":1,"type":"hero","layout":"center","accent":true,"headline":"The Efficient Workday","chapter":"INTRODUCTION","body":["Reclaiming Joy in Medicine"]}},"timestamp":1770743651661,"hypothesisId":"A"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770743651671,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":1,"headline":"The Efficient Workday"},"timestamp":1770743651672,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770743651673,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":1,"headline":"The Efficient Workday"},"timestamp":1770743651674,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":1,"type":"hero","layout":"center"},"timestamp":1770743651683,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":1,"type":"hero","layout":"center"},"timestamp":1770743651684,"hypothesisId":"C"}
+{"location":"parseSlides.ts:3","message":"Starting parse","data":{"markdownExists":true},"timestamp":1770743705220,"hypothesisId":"A"}
+{"location":"slides.ts:18","message":"Parsed slides result","data":{"count":46,"firstSlide":{"id":1,"type":"hero","layout":"center","accent":true,"headline":"The Efficient Workday","chapter":"INTRODUCTION","body":["Reclaiming Joy in Medicine","David Canes MD","Associate Professor of Urology","Beth Israel Lahey Health"]}},"timestamp":1770743705222,"hypothesisId":"A"}
+{"location":"parseSlides.ts:8","message":"Split sections","data":{"sectionCount":46},"timestamp":1770743705221,"hypothesisId":"A"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770743705242,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":1,"headline":"The Efficient Workday"},"timestamp":1770743705243,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770743705244,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":1,"headline":"The Efficient Workday"},"timestamp":1770743705245,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":1,"type":"hero","layout":"center"},"timestamp":1770743705248,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":1,"type":"hero","layout":"center"},"timestamp":1770743705248,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770743720938,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770743720940,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":2,"headline":"Disclosures"},"timestamp":1770743720940,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":2,"headline":"Disclosures"},"timestamp":1770743720939,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":2,"type":"standard","layout":"stack"},"timestamp":1770743721258,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":2,"type":"standard","layout":"stack"},"timestamp":1770743721259,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770743724919,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770743724921,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":3,"headline":"Your Purpose?"},"timestamp":1770743724922,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":3,"headline":"Your Purpose?"},"timestamp":1770743724920,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":3,"type":"standard","layout":"center"},"timestamp":1770743725243,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":3,"type":"standard","layout":"center"},"timestamp":1770743725245,"hypothesisId":"C"}
+{"location":"parseSlides.ts:3","message":"Starting parse","data":{"markdownExists":true},"timestamp":1770743752252,"hypothesisId":"A"}
+{"location":"parseSlides.ts:8","message":"Split sections","data":{"sectionCount":46},"timestamp":1770743752253,"hypothesisId":"A"}
+{"location":"slides.ts:18","message":"Parsed slides result","data":{"count":46,"firstSlide":{"id":1,"type":"hero","layout":"center","accent":true,"headline":"The Efficient Workday","chapter":"INTRODUCTION","body":["Reclaiming Joy in Medicine","David Canes MD","Associate Professor of Urology","Beth Israel Lahey Health"]}},"timestamp":1770743752257,"hypothesisId":"A"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770743752280,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":3,"headline":"Your Purpose?"},"timestamp":1770743752282,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770743752284,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":3,"headline":"Your Purpose?"},"timestamp":1770743752286,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":3,"type":"standard","layout":"center"},"timestamp":1770743752289,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":3,"type":"standard","layout":"center"},"timestamp":1770743752291,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770743755366,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":4,"headline":"Erosion of joy comes from three thieves:"},"timestamp":1770743755367,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770743755368,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":4,"headline":"Erosion of joy comes from three thieves:"},"timestamp":1770743755368,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":4,"type":"standard","layout":"grid-3"},"timestamp":1770743755690,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":4,"type":"standard","layout":"grid-3"},"timestamp":1770743755691,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770743757790,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":5,"headline":"Efficiency means less rush, more room for joy!"},"timestamp":1770743757791,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":5,"headline":"Efficiency means less rush, more room for joy!"},"timestamp":1770743757793,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770743757792,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":5,"type":"standard","layout":"stack"},"timestamp":1770743758106,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":5,"type":"standard","layout":"stack"},"timestamp":1770743758107,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770743758194,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":4,"headline":"Erosion of joy comes from three thieves:"},"timestamp":1770743758194,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770743758195,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":4,"headline":"Erosion of joy comes from three thieves:"},"timestamp":1770743758195,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":4,"type":"standard","layout":"grid-3"},"timestamp":1770743758506,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":4,"type":"standard","layout":"grid-3"},"timestamp":1770743758507,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770743791039,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":5,"headline":"Efficiency means less rush, more room for joy!"},"timestamp":1770743791040,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":5,"headline":"Efficiency means less rush, more room for joy!"},"timestamp":1770743791041,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770743791040,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":5,"type":"standard","layout":"stack"},"timestamp":1770743791357,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":5,"type":"standard","layout":"stack"},"timestamp":1770743791359,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770743792282,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":6,"headline":"Three Domains:"},"timestamp":1770743792283,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770743792284,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":6,"headline":"Three Domains:"},"timestamp":1770743792285,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":6,"type":"standard","layout":"grid-3"},"timestamp":1770743792605,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":6,"type":"standard","layout":"grid-3"},"timestamp":1770743792606,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770743793572,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":7,"headline":"Why Me?"},"timestamp":1770743793572,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770743793573,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":7,"headline":"Why Me?"},"timestamp":1770743793573,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":7,"type":"standard","layout":"grid-2"},"timestamp":1770743793890,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":7,"type":"standard","layout":"grid-2"},"timestamp":1770743793891,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770743794874,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":8,"headline":"Wellness Means Flourishing"},"timestamp":1770743794875,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770743794875,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":8,"headline":"Wellness Means Flourishing"},"timestamp":1770743794875,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":8,"type":"hero","layout":"center"},"timestamp":1770743795190,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":8,"type":"hero","layout":"center"},"timestamp":1770743795191,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770743796615,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":9,"headline":"Wellness Pet Peeves"},"timestamp":1770743796616,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770743796617,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":9,"headline":"Wellness Pet Peeves"},"timestamp":1770743796617,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":9,"type":"standard","layout":"grid-3"},"timestamp":1770743796940,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":9,"type":"standard","layout":"grid-3"},"timestamp":1770743796943,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770743829881,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":10,"headline":"The Pilot Analogy"},"timestamp":1770743829882,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":10,"headline":"The Pilot Analogy"},"timestamp":1770743829883,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770743829882,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":10,"type":"dark","layout":"center"},"timestamp":1770743830206,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":10,"type":"dark","layout":"center"},"timestamp":1770743830206,"hypothesisId":"C"}
+{"location":"parseSlides.ts:3","message":"Starting parse","data":{"markdownExists":true},"timestamp":1770743852260,"hypothesisId":"A"}
+{"location":"parseSlides.ts:8","message":"Split sections","data":{"sectionCount":46},"timestamp":1770743852262,"hypothesisId":"A"}
+{"location":"slides.ts:18","message":"Parsed slides result","data":{"count":46,"firstSlide":{"id":1,"type":"hero","layout":"center","accent":true,"headline":"The Efficient Workday","chapter":"INTRODUCTION","body":["Reclaiming Joy in Medicine","David Canes MD","Associate Professor of Urology","Beth Israel Lahey Health"]}},"timestamp":1770743852267,"hypothesisId":"A"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770743852290,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":10,"headline":"The Pilot Analogy"},"timestamp":1770743852292,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770743852293,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":10,"headline":"The Pilot Analogy"},"timestamp":1770743852296,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":10,"type":"dark","layout":"center"},"timestamp":1770743852299,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":10,"type":"dark","layout":"center"},"timestamp":1770743852301,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770743853656,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770743853657,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":11,"headline":"Stanford Model"},"timestamp":1770743853657,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":11,"headline":"Stanford Model"},"timestamp":1770743853656,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":11,"type":"standard","layout":"grid-3"},"timestamp":1770743853973,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":11,"type":"standard","layout":"grid-3"},"timestamp":1770743853974,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770743866006,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":12,"headline":"What Does Data Reveal?"},"timestamp":1770743866006,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":12,"headline":"What Does Data Reveal?"},"timestamp":1770743866008,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770743866007,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":12,"type":"data","layout":"stack"},"timestamp":1770743866324,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":12,"type":"data","layout":"stack"},"timestamp":1770743866325,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770743867460,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770743867461,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":13,"headline":"Screen Time"},"timestamp":1770743867462,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":13,"headline":"Screen Time"},"timestamp":1770743867461,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":13,"type":"data","layout":"grid-2"},"timestamp":1770743867774,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":13,"type":"data","layout":"grid-2"},"timestamp":1770743867774,"hypothesisId":"C"}
+{"location":"parseSlides.ts:3","message":"Starting parse","data":{"markdownExists":true},"timestamp":1770743891936,"hypothesisId":"A"}
+{"location":"parseSlides.ts:8","message":"Split sections","data":{"sectionCount":46},"timestamp":1770743891937,"hypothesisId":"A"}
+{"location":"slides.ts:18","message":"Parsed slides result","data":{"count":46,"firstSlide":{"id":1,"type":"hero","layout":"center","accent":true,"headline":"The Efficient Workday","chapter":"INTRODUCTION","body":["Reclaiming Joy in Medicine","David Canes MD","Associate Professor of Urology","Beth Israel Lahey Health"]}},"timestamp":1770743891940,"hypothesisId":"A"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770743891960,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":13,"headline":"Screen Time"},"timestamp":1770743891962,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770743891962,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":13,"headline":"Screen Time"},"timestamp":1770743891963,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":13,"type":"data","layout":"standard"},"timestamp":1770743891964,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":13,"type":"data","layout":"standard"},"timestamp":1770743891965,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770743897277,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":14,"headline":"Who Should Drive Solutions?"},"timestamp":1770743897278,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770743897278,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":14,"headline":"Who Should Drive Solutions?"},"timestamp":1770743897279,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":14,"type":"standard","layout":"center"},"timestamp":1770743897591,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":14,"type":"standard","layout":"center"},"timestamp":1770743897593,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770743898711,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":15,"headline":"The Gender Gap"},"timestamp":1770743898712,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":15,"headline":"The Gender Gap"},"timestamp":1770743898713,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770743898712,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":15,"type":"data","layout":"grid-2"},"timestamp":1770743899024,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":15,"type":"data","layout":"grid-2"},"timestamp":1770743899025,"hypothesisId":"C"}
+{"location":"parseSlides.ts:3","message":"Starting parse","data":{"markdownExists":true},"timestamp":1770743928173,"hypothesisId":"A"}
+{"location":"parseSlides.ts:8","message":"Split sections","data":{"sectionCount":46},"timestamp":1770743928174,"hypothesisId":"A"}
+{"location":"slides.ts:18","message":"Parsed slides result","data":{"count":46,"firstSlide":{"id":1,"type":"hero","layout":"center","accent":true,"headline":"The Efficient Workday","chapter":"INTRODUCTION","body":["Reclaiming Joy in Medicine","David Canes MD","Associate Professor of Urology","Beth Israel Lahey Health"]}},"timestamp":1770743928179,"hypothesisId":"A"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770743928199,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770743928200,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":15,"headline":"The Gender Gap"},"timestamp":1770743928200,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":15,"headline":"The Gender Gap"},"timestamp":1770743928201,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":15,"type":"data","layout":"grid-3"},"timestamp":1770743928201,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":15,"type":"data","layout":"grid-3"},"timestamp":1770743928202,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770743934134,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":16,"headline":"No Action? OK."},"timestamp":1770743934135,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":16,"headline":"No Action? OK."},"timestamp":1770743934136,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770743934135,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":16,"type":"dark","layout":"center"},"timestamp":1770743934459,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":16,"type":"dark","layout":"center"},"timestamp":1770743934460,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770743972333,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770743972335,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":15,"headline":"The Gender Gap"},"timestamp":1770743972335,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":15,"headline":"The Gender Gap"},"timestamp":1770743972334,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":15,"type":"data","layout":"grid-3"},"timestamp":1770743972644,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":15,"type":"data","layout":"grid-3"},"timestamp":1770743972645,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770743972798,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":14,"headline":"Who Should Drive Solutions?"},"timestamp":1770743972798,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770743972799,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":14,"headline":"Who Should Drive Solutions?"},"timestamp":1770743972799,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":14,"type":"standard","layout":"center"},"timestamp":1770743973107,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":14,"type":"standard","layout":"center"},"timestamp":1770743973108,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770743974355,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":13,"headline":"Screen Time"},"timestamp":1770743974357,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770743974357,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":13,"headline":"Screen Time"},"timestamp":1770743974358,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":13,"type":"data","layout":"standard"},"timestamp":1770743974675,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":13,"type":"data","layout":"standard"},"timestamp":1770743974676,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770743977585,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":12,"headline":"What Does Data Reveal?"},"timestamp":1770743977586,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770743977587,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":12,"headline":"What Does Data Reveal?"},"timestamp":1770743977587,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":12,"type":"data","layout":"stack"},"timestamp":1770743977908,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":12,"type":"data","layout":"stack"},"timestamp":1770743977909,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770743994949,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770743994950,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":11,"headline":"Stanford Model"},"timestamp":1770743994950,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":11,"headline":"Stanford Model"},"timestamp":1770743994950,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":11,"type":"standard","layout":"grid-3"},"timestamp":1770743995259,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":11,"type":"standard","layout":"grid-3"},"timestamp":1770743995260,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770744045133,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770744045135,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":10,"headline":"The Pilot Analogy"},"timestamp":1770744045136,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":10,"headline":"The Pilot Analogy"},"timestamp":1770744045134,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":10,"type":"dark","layout":"center"},"timestamp":1770744045460,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":10,"type":"dark","layout":"center"},"timestamp":1770744045461,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770744047796,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":9,"headline":"Wellness Pet Peeves"},"timestamp":1770744047797,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770744047797,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":9,"headline":"Wellness Pet Peeves"},"timestamp":1770744047798,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":9,"type":"standard","layout":"grid-3"},"timestamp":1770744048108,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":9,"type":"standard","layout":"grid-3"},"timestamp":1770744048109,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770744048418,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":8,"headline":"Wellness Means Flourishing"},"timestamp":1770744048419,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770744048419,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":8,"headline":"Wellness Means Flourishing"},"timestamp":1770744048419,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":8,"type":"hero","layout":"center"},"timestamp":1770744048726,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":8,"type":"hero","layout":"center"},"timestamp":1770744048727,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770744050267,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770744050268,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":7,"headline":"Why Me?"},"timestamp":1770744050269,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":7,"headline":"Why Me?"},"timestamp":1770744050268,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":7,"type":"standard","layout":"grid-2"},"timestamp":1770744050575,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":7,"type":"standard","layout":"grid-2"},"timestamp":1770744050576,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770744052485,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":8,"headline":"Wellness Means Flourishing"},"timestamp":1770744052486,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770744052487,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":8,"headline":"Wellness Means Flourishing"},"timestamp":1770744052487,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":8,"type":"hero","layout":"center"},"timestamp":1770744052809,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":8,"type":"hero","layout":"center"},"timestamp":1770744052810,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770744053434,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":7,"headline":"Why Me?"},"timestamp":1770744053435,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770744053436,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":7,"headline":"Why Me?"},"timestamp":1770744053436,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":7,"type":"standard","layout":"grid-2"},"timestamp":1770744053742,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":7,"type":"standard","layout":"grid-2"},"timestamp":1770744053744,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770744070413,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770744070414,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":8,"headline":"Wellness Means Flourishing"},"timestamp":1770744070414,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":8,"headline":"Wellness Means Flourishing"},"timestamp":1770744070414,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770744070693,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":9,"headline":"Wellness Pet Peeves"},"timestamp":1770744070694,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770744070694,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":9,"headline":"Wellness Pet Peeves"},"timestamp":1770744070694,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":9,"type":"standard","layout":"grid-3"},"timestamp":1770744070729,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":9,"type":"standard","layout":"grid-3"},"timestamp":1770744070731,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770744071003,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770744071004,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":10,"headline":"The Pilot Analogy"},"timestamp":1770744071004,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":10,"headline":"The Pilot Analogy"},"timestamp":1770744071004,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":10,"type":"dark","layout":"center"},"timestamp":1770744071309,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":10,"type":"dark","layout":"center"},"timestamp":1770744071309,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770744071344,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":11,"headline":"Stanford Model"},"timestamp":1770744071345,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770744071345,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":11,"headline":"Stanford Model"},"timestamp":1770744071345,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":11,"type":"standard","layout":"grid-3"},"timestamp":1770744071659,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":11,"type":"standard","layout":"grid-3"},"timestamp":1770744071660,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770744072049,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770744072050,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":12,"headline":"What Does Data Reveal?"},"timestamp":1770744072050,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":12,"headline":"What Does Data Reveal?"},"timestamp":1770744072049,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":12,"type":"data","layout":"stack"},"timestamp":1770744072359,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":12,"type":"data","layout":"stack"},"timestamp":1770744072360,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770744072698,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":13,"headline":"Screen Time"},"timestamp":1770744072699,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770744072699,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":13,"headline":"Screen Time"},"timestamp":1770744072700,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":13,"type":"data","layout":"standard"},"timestamp":1770744073010,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":13,"type":"data","layout":"standard"},"timestamp":1770744073010,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770744073315,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770744073317,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":14,"headline":"Who Should Drive Solutions?"},"timestamp":1770744073317,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":14,"headline":"Who Should Drive Solutions?"},"timestamp":1770744073316,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":14,"type":"standard","layout":"center"},"timestamp":1770744073625,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":14,"type":"standard","layout":"center"},"timestamp":1770744073626,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770744074561,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":15,"headline":"The Gender Gap"},"timestamp":1770744074561,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770744074562,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":15,"headline":"The Gender Gap"},"timestamp":1770744074562,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":15,"type":"data","layout":"grid-3"},"timestamp":1770744074876,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":15,"type":"data","layout":"grid-3"},"timestamp":1770744074877,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770744075877,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770744075879,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":16,"headline":"No Action? OK."},"timestamp":1770744075880,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":16,"headline":"No Action? OK."},"timestamp":1770744075878,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":16,"type":"dark","layout":"center"},"timestamp":1770744076194,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":16,"type":"dark","layout":"center"},"timestamp":1770744076195,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770744077325,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":17,"headline":"Anatomy of a Visit"},"timestamp":1770744077326,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770744077326,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":17,"headline":"Anatomy of a Visit"},"timestamp":1770744077326,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":17,"type":"standard","layout":"grid-3"},"timestamp":1770744077643,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":17,"type":"standard","layout":"grid-3"},"timestamp":1770744077644,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770744080230,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":18,"headline":"What's Fulfilling?"},"timestamp":1770744080232,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770744080232,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":18,"headline":"What's Fulfilling?"},"timestamp":1770744080233,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":18,"type":"standard","layout":"grid-3"},"timestamp":1770744080543,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":18,"type":"standard","layout":"grid-3"},"timestamp":1770744080544,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770744098723,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":19,"headline":"Seven Solutions"},"timestamp":1770744098725,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770744098724,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":19,"headline":"Seven Solutions"},"timestamp":1770744098724,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":19,"type":"hero","layout":"stack"},"timestamp":1770744099043,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":19,"type":"hero","layout":"stack"},"timestamp":1770744099044,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770744099935,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":20,"headline":"Solution 1: Delegate Pre-charting"},"timestamp":1770744099935,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770744099936,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":20,"headline":"Solution 1: Delegate Pre-charting"},"timestamp":1770744099936,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":20,"type":"standard","layout":"stack"},"timestamp":1770744100244,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":20,"type":"standard","layout":"stack"},"timestamp":1770744100245,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770744101293,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":19,"headline":"Seven Solutions"},"timestamp":1770744101294,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770744101295,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":19,"headline":"Seven Solutions"},"timestamp":1770744101295,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":19,"type":"hero","layout":"stack"},"timestamp":1770744101609,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":19,"type":"hero","layout":"stack"},"timestamp":1770744101611,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770744119665,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770744119667,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":20,"headline":"Solution 1: Delegate Pre-charting"},"timestamp":1770744119668,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":20,"headline":"Solution 1: Delegate Pre-charting"},"timestamp":1770744119666,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":20,"type":"standard","layout":"stack"},"timestamp":1770744119976,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":20,"type":"standard","layout":"stack"},"timestamp":1770744119977,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770744120389,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":21,"headline":"No Pre-charting? OK."},"timestamp":1770744120390,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770744120391,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":21,"headline":"No Pre-charting? OK."},"timestamp":1770744120392,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":21,"type":"dark","layout":"center"},"timestamp":1770744120711,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":21,"type":"dark","layout":"center"},"timestamp":1770744120712,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770744121955,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":22,"headline":"Solution 2: Pre-education"},"timestamp":1770744121956,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770744121956,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":22,"headline":"Solution 2: Pre-education"},"timestamp":1770744121958,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":22,"type":"standard","layout":"center"},"timestamp":1770744122276,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":22,"type":"standard","layout":"center"},"timestamp":1770744122277,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770744123656,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":23,"headline":"Pre-education Example"},"timestamp":1770744123658,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770744123660,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":23,"headline":"Pre-education Example"},"timestamp":1770744123660,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":23,"type":"standard","layout":"grid-3"},"timestamp":1770744123975,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":23,"type":"standard","layout":"grid-3"},"timestamp":1770744123976,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770744127739,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770744127740,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":24,"headline":"No Pre-education? OK."},"timestamp":1770744127740,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":24,"headline":"No Pre-education? OK."},"timestamp":1770744127740,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":24,"type":"dark","layout":"center"},"timestamp":1770744128059,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":24,"type":"dark","layout":"center"},"timestamp":1770744128060,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770744129404,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":23,"headline":"Pre-education Example"},"timestamp":1770744129405,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770744129406,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":23,"headline":"Pre-education Example"},"timestamp":1770744129407,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":23,"type":"standard","layout":"grid-3"},"timestamp":1770744129726,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":23,"type":"standard","layout":"grid-3"},"timestamp":1770744129726,"hypothesisId":"C"}
+{"location":"parseSlides.ts:3","message":"Starting parse","data":{"markdownExists":true},"timestamp":1770744176132,"hypothesisId":"A"}
+{"location":"slides.ts:18","message":"Parsed slides result","data":{"count":46,"firstSlide":{"id":1,"type":"hero","layout":"center","accent":true,"headline":"The Efficient Workday","chapter":"INTRODUCTION","body":["Reclaiming Joy in Medicine","David Canes MD","Associate Professor of Urology","Beth Israel Lahey Health"]}},"timestamp":1770744176134,"hypothesisId":"A"}
+{"location":"parseSlides.ts:8","message":"Split sections","data":{"sectionCount":46},"timestamp":1770744176132,"hypothesisId":"A"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770744176152,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":23,"headline":"Pre-education Example"},"timestamp":1770744176153,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770744176154,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":23,"headline":"Pre-education Example"},"timestamp":1770744176154,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":23,"type":"standard","layout":"grid-3"},"timestamp":1770744176155,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":23,"type":"standard","layout":"grid-3"},"timestamp":1770744176156,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770744196021,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770744196022,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":24,"headline":"No Pre-education? OK."},"timestamp":1770744196023,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":24,"headline":"No Pre-education? OK."},"timestamp":1770744196022,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":24,"type":"dark","layout":"center"},"timestamp":1770744196344,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":24,"type":"dark","layout":"center"},"timestamp":1770744196344,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770744196672,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":25,"headline":"Solution 3: Become an EHR Guru"},"timestamp":1770744196673,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770744196674,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":25,"headline":"Solution 3: Become an EHR Guru"},"timestamp":1770744196675,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":25,"type":"standard","layout":"stack"},"timestamp":1770744196996,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":25,"type":"standard","layout":"stack"},"timestamp":1770744196997,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770744197977,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":26,"headline":"No EHR Mastery? OK."},"timestamp":1770744197978,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770744197979,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":26,"headline":"No EHR Mastery? OK."},"timestamp":1770744197981,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":26,"type":"dark","layout":"center"},"timestamp":1770744198295,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":26,"type":"dark","layout":"center"},"timestamp":1770744198296,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770744199336,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":27,"headline":"Solution 4: Voice Transcription"},"timestamp":1770744199337,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":27,"headline":"Solution 4: Voice Transcription"},"timestamp":1770744199338,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770744199337,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":27,"type":"standard","layout":"grid-2"},"timestamp":1770744199643,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":27,"type":"standard","layout":"grid-2"},"timestamp":1770744199643,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770744205406,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":28,"headline":"Solution 5: AI Scribes"},"timestamp":1770744205406,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":28,"headline":"Solution 5: AI Scribes"},"timestamp":1770744205408,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770744205407,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":28,"type":"hero","layout":"center"},"timestamp":1770744205728,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":28,"type":"hero","layout":"center"},"timestamp":1770744205729,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770744206034,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":27,"headline":"Solution 4: Voice Transcription"},"timestamp":1770744206035,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770744206036,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":27,"headline":"Solution 4: Voice Transcription"},"timestamp":1770744206036,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":27,"type":"standard","layout":"grid-2"},"timestamp":1770744206342,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":27,"type":"standard","layout":"grid-2"},"timestamp":1770744206343,"hypothesisId":"C"}
+{"location":"parseSlides.ts:3","message":"Starting parse","data":{"markdownExists":true},"timestamp":1770744223975,"hypothesisId":"A"}
+{"location":"slides.ts:18","message":"Parsed slides result","data":{"count":46,"firstSlide":{"id":1,"type":"hero","layout":"center","accent":true,"headline":"The Efficient Workday","chapter":"INTRODUCTION","body":["Reclaiming Joy in Medicine","David Canes MD","Associate Professor of Urology","Beth Israel Lahey Health"]}},"timestamp":1770744223982,"hypothesisId":"A"}
+{"location":"parseSlides.ts:8","message":"Split sections","data":{"sectionCount":46},"timestamp":1770744223976,"hypothesisId":"A"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770744224006,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":27,"headline":"Solution 4: Voice Transcription"},"timestamp":1770744224009,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770744224010,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":27,"headline":"Solution 4: Voice Transcription"},"timestamp":1770744224011,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":27,"type":"standard","layout":"standard"},"timestamp":1770744224012,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":27,"type":"standard","layout":"standard"},"timestamp":1770744224013,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770744225029,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770744225030,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":28,"headline":"Solution 5: AI Scribes"},"timestamp":1770744225031,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":28,"headline":"Solution 5: AI Scribes"},"timestamp":1770744225030,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":28,"type":"hero","layout":"center"},"timestamp":1770744225344,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":28,"type":"hero","layout":"center"},"timestamp":1770744225345,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770744226134,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":29,"headline":"Common Myths"},"timestamp":1770744226135,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770744226135,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":29,"headline":"Common Myths"},"timestamp":1770744226136,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":29,"type":"standard","layout":"grid-3"},"timestamp":1770744226445,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":29,"type":"standard","layout":"grid-3"},"timestamp":1770744226446,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770744227751,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":28,"headline":"Solution 5: AI Scribes"},"timestamp":1770744227752,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770744227752,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":28,"headline":"Solution 5: AI Scribes"},"timestamp":1770744227752,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":28,"type":"hero","layout":"center"},"timestamp":1770744228061,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":28,"type":"hero","layout":"center"},"timestamp":1770744228062,"hypothesisId":"C"}
+{"location":"parseSlides.ts:3","message":"Starting parse","data":{"markdownExists":true},"timestamp":1770744243403,"hypothesisId":"A"}
+{"location":"parseSlides.ts:8","message":"Split sections","data":{"sectionCount":46},"timestamp":1770744243404,"hypothesisId":"A"}
+{"location":"slides.ts:18","message":"Parsed slides result","data":{"count":46,"firstSlide":{"id":1,"type":"hero","layout":"center","accent":true,"headline":"The Efficient Workday","chapter":"INTRODUCTION","body":["Reclaiming Joy in Medicine","David Canes MD","Associate Professor of Urology","Beth Israel Lahey Health"]}},"timestamp":1770744243406,"hypothesisId":"A"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770744243427,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":28,"headline":"Solution 5: AI Scribes"},"timestamp":1770744243429,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770744243430,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":28,"headline":"Solution 5: AI Scribes"},"timestamp":1770744243430,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":28,"type":"Standard","layout":"center"},"timestamp":1770744243431,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":28,"type":"Standard","layout":"center"},"timestamp":1770744243433,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770744244287,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":29,"headline":"Common Myths"},"timestamp":1770744244287,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770744244287,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":29,"headline":"Common Myths"},"timestamp":1770744244288,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":29,"type":"standard","layout":"grid-3"},"timestamp":1770744244594,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":29,"type":"standard","layout":"grid-3"},"timestamp":1770744244595,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770744245966,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":30,"headline":"What I Use AI Scribe For"},"timestamp":1770744245967,"hypothesisId":"C"}
+{"location":"App.tsx:10","message":"App rendering","data":{"slideCount":46,"currentIndex":0},"timestamp":1770744245968,"hypothesisId":"C"}
+{"location":"App.tsx:54","message":"Rendering slide","data":{"id":30,"headline":"What I Use AI Scribe For"},"timestamp":1770744245968,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":30,"type":"standard","layout":"grid-3"},"timestamp":1770744246279,"hypothesisId":"C"}
+{"location":"SlideRenderer.tsx:9","message":"SlideRenderer rendering","data":{"id":30,"type":"standard","layout":"grid-3"},"timestamp":1770744246281,"hypothesisId":"C"}
+{"location":"parseSlides.ts:3","message":"Starting parse","data":{"markdownExists":true},"timestamp":1770744623846,"hypothesisId":"A"}
+{"location":"parseSlides.ts:8","message":"Split sections","data":{"sectionCount":46},"timestamp":1770744623847,"hypothesisId":"A"}

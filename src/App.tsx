@@ -1,59 +1,35 @@
-import { useState, useEffect, useMemo } from 'react';
-import { slides, Slide } from './slides';
+import { useState, useEffect } from 'react';
+import { AnimatePresence } from 'framer-motion';
+import { slides as initialSlides, Slide } from './slides';
 import { SlideRenderer } from './SlideRenderer';
+import { SlidePicker } from './SlidePicker';
 import './styles.css';
 
-type TransitionStatus = 'idle' | 'exiting' | 'entering';
-
 function App() {
+  const [slideData, setSlideData] = useState<Slide[]>(initialSlides);
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [transitionStatus, setTransitionStatus] = useState<TransitionStatus>('entering');
-  const [displayIndex, setDisplayIndex] = useState(0);
-
-  const totalSlides = slides.length;
-  const currentSlide = slides[displayIndex];
-
-  // Group slides by chapter for the progress bar
-  const chapters = useMemo(() => {
-    const groups: { name: string; count: number }[] = [];
-    slides.forEach((slide) => {
-      const lastGroup = groups[groups.length - 1];
-      if (lastGroup && lastGroup.name === slide.chapter) {
-        lastGroup.count++;
-      } else {
-        groups.push({ name: slide.chapter, count: 1 });
-      }
-    });
-    return groups;
-  }, []);
-
-  const changeSlide = (newIndex: number) => {
-    if (newIndex === displayIndex || transitionStatus !== 'idle') return;
-    
-    setTransitionStatus('exiting');
-    setTimeout(() => {
-      setDisplayIndex(newIndex);
-      setTransitionStatus('entering');
-    }, 300);
-  };
-
-  useEffect(() => {
-    if (transitionStatus === 'entering') {
-      const timer = setTimeout(() => setTransitionStatus('idle'), 400);
-      return () => clearTimeout(timer);
-    }
-  }, [transitionStatus]);
+  const [zoomMode, setZoomMode] = useState(true);
+  const [isPickerOpen, setIsPickerOpen] = useState(false);
+  const totalSlides = slideData.length;
+  const currentSlide = slideData[currentIndex];
 
   const handleNext = () => {
-    if (displayIndex < totalSlides - 1) {
-      changeSlide(displayIndex + 1);
-    }
+    setCurrentIndex((prev) => Math.min(prev + 1, totalSlides - 1));
   };
 
   const handlePrev = () => {
-    if (displayIndex > 0) {
-      changeSlide(displayIndex - 1);
-    }
+    setCurrentIndex((prev) => Math.max(prev - 1, 0));
+  };
+
+  const jumpToSlide = (index: number) => {
+    setCurrentIndex(index);
+    setIsPickerOpen(false);
+  };
+
+  const handleImageUpdate = (slideId: number, newImage: string | undefined) => {
+    setSlideData((prev) =>
+      prev.map((s) => (s.id === slideId ? { ...s, image: newImage } : s))
+    );
   };
 
   useEffect(() => {
@@ -64,62 +40,72 @@ function App() {
       } else if (event.key === 'ArrowLeft') {
         event.preventDefault();
         handlePrev();
+      } else if (event.key === 'z' || event.key === 'Z') {
+        setZoomMode((prev) => !prev);
       }
     };
 
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [displayIndex, transitionStatus]);
+  }, [totalSlides]);
+
+  if (!currentSlide) {
+    return (
+      <div className="app" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+        <div style={{ color: '#64748b' }}>No slides found. Check src/slides.md</div>
+      </div>
+    );
+  }
+
+  const progress = totalSlides > 0 ? ((currentIndex + 1) / totalSlides) * 100 : 0;
+  const isDarkMode = currentSlide.type === 'dark' || currentSlide.type === 'hero';
+
+  const appClasses = [
+    'app',
+    isDarkMode ? 'dark-mode' : '',
+    zoomMode ? 'zoom-mode' : '',
+  ].filter(Boolean).join(' ');
 
   return (
-    <div className="app">
-      {/* Segmented Progress Bar */}
-      <div className="progress-bar">
-        {chapters.map((chapter, idx) => {
-          const startIdx = slides.findIndex(s => s.chapter === chapter.name);
-          const isActiveChapter = currentSlide.chapter === chapter.name;
-          
-          return (
-            <div 
-              key={idx} 
-              className={`progress-segment ${isActiveChapter ? 'active' : ''}`}
-              style={{ flex: chapter.count }}
-            >
-              <div className="segment-label">{chapter.name}</div>
-              <div className="segment-track">
-                {Array.from({ length: chapter.count }).map((_, i) => {
-                  const slideIdx = startIdx + i;
-                  const isPast = slideIdx < displayIndex;
-                  const isCurrent = slideIdx === displayIndex;
-                  return (
-                    <div 
-                      key={i} 
-                      className={`slide-dot ${isPast ? 'past' : ''} ${isCurrent ? 'current' : ''}`}
-                    />
-                  );
-                })}
-              </div>
-            </div>
-          );
-        })}
+    <div className={appClasses}>
+      {/* Progress Bar */}
+      <div className="progress-container">
+        <div className="chapter-label">{currentSlide.chapter}</div>
+        <div className="progress-bar-track">
+          <div
+            className="progress-bar-fill"
+            style={{ width: `${progress}%` }}
+          />
+        </div>
       </div>
 
-      {/* Clickable Navigation Areas */}
+      {/* Invisible Navigation Areas */}
       <div className="nav-area left" onClick={handlePrev} />
       <div className="nav-area right" onClick={handleNext} />
 
-      <main className="slide-container">
-        <SlideRenderer 
-          slide={currentSlide} 
-          className={transitionStatus} 
-        />
+      <main className="slide-content">
+        <AnimatePresence mode="wait">
+          <SlideRenderer
+            key={currentIndex}
+            slide={currentSlide}
+            onImageUpdate={handleImageUpdate}
+          />
+        </AnimatePresence>
       </main>
 
       <footer className="slide-footer">
-        <div className="slide-counter">
-          Slide {displayIndex + 1} / {totalSlides}
+        <div className="slide-counter" onClick={() => setIsPickerOpen(true)}>
+          {currentIndex + 1} / {totalSlides}
         </div>
       </footer>
+
+      <SlidePicker
+        slides={slideData}
+        currentIndex={currentIndex}
+        isOpen={isPickerOpen}
+        onClose={() => setIsPickerOpen(false)}
+        onSelect={jumpToSlide}
+      />
     </div>
   );
 }
